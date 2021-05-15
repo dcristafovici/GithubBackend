@@ -11,14 +11,18 @@
   "author": "Cristafovici Dan",
   "license": "ISC",
   "dependencies": {
+    "@octokit/core": "^3.4.0",
     "cors": "^2.8.5",
     "dotenv": "^9.0.2",
     "express": "^4.17.1",
+    "ip": "^1.1.5",
+    "mongoose": "^5.12.9",
     "node-fetch": "^2.6.1"
   },
   "devDependencies": {
     "@types/cors": "^2.8.10",
     "@types/express": "^4.17.11",
+    "@types/ip": "^1.1.0",
     "@types/node": "^15.0.3",
     "@types/node-fetch": "^2.5.10",
     "nodemon": "^2.0.7",
